@@ -1,2 +1,2 @@
 # ResuSearch
-School project
+Говнокод школьного проекта акт второй
