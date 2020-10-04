@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1015</width>
+    <height>970</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1015</width>
+    <height>970</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1015</width>
+    <height>970</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Сортировка резюме</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../icon.png</normaloff>../icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(213, 213, 213);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="peopletableWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>50</y>
+      <width>1001</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+    <property name="autoScroll">
+     <bool>true</bool>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>false</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="textElideMode">
+     <enum>Qt::ElideRight</enum>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::SolidLine</enum>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="cornerButtonEnabled">
+     <bool>false</bool>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>20</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>100</number>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>21</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>New Row</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>New Row</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>New Row</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>New Row</string>
+     </property>
+    </row>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string notr="true">Имя</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string notr="true">Фамилия</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string notr="true">Должность</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string notr="true">Возраст</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string notr="true">Уровень образования</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+     <property name="flags">
+      <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="10" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="10" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="10" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="10" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="10" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="11" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="11" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="11" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="11" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="11" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="12" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="12" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="12" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="12" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="12" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="13" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="13" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="13" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="13" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="13" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="14" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="14" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="14" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="14" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="14" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="15" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="15" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="15" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="15" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="15" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="16" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="16" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="16" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="16" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="16" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="17" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="17" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="17" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="17" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="17" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="18" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="18" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="18" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="18" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="18" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="19" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="19" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="19" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="19" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="19" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="20" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="20" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="20" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="20" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="20" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="21" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="21" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="21" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="21" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="21" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="22" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="22" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="22" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="22" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="22" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="23" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="23" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="23" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="23" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="23" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="24" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="24" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="24" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="24" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="24" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="25" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="25" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="25" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="25" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="25" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="26" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="26" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="26" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="26" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="26" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="27" column="0">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="27" column="1">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="27" column="2">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="27" column="3">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+    <item row="27" column="4">
+     <property name="text">
+      <string>ц</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="editresumeButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>760</y>
+      <width>480</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(75, 75, 75);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(175, 175, 175);</string>
+    </property>
+    <property name="text">
+     <string notr="true">Просмотреть/Редактировать резюме</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteButton">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>760</y>
+      <width>480</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(75, 75, 75);
+color: rgb(255, 255, 255);
+selection-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string notr="true">Удалить резюме</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="excelexportButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>860</y>
+      <width>1000</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(75, 75, 75);
+color: rgb(255, 255, 255);
+selection-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string notr="true">Экспортировать в таблицу Microsoft Excel</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>10</y>
+      <width>261</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Выделить по профессии</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
